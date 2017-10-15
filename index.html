@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Star Wars Game</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type ="text/css" href="assets/css/style.css">
+
+	<!-- JQuery -->
+  	<script src="https://code.jquery.com/jquery.js"></script>
+</head>
+<body>
+	<h1>Star Wars RPG!</h1>
+
+	<div class = "characters">
+		<div id = "owk">
+			<h3>Obi-Wan Kenobi</h3>
+			<img src = "assets/images/ObiWan_hood.jpg" alt = "Obi-Wan">
+			<div id = "owk-hp"></div>
+		</div>
+		<div id = "ls">
+			<h3>Luke Skywalker</h3>
+			<img src = "assets/images/luke.jpg" alt = "Luke Skywalker">
+			<div id = "ls-hp"></div>
+		</div>
+		<div id = "ds">
+			<h3>Darth Sidious</h3>
+			<img src = "assets/images/darth.jpg" alt = "Darth Sidious">
+			<div id = "ds-hp"></div>
+		</div>
+		<div id = "dm">
+			<h3>Darth Maul</h3>
+			<img src = "assets/images/darth_maul.jpg" alt = "Darth Maul">
+			<div id = "dm-hp"></div>
+		</div>
+	</div>
+
+	<div class = "yourCharacter">
+		Your Character
+		<div id = "yourCharacter"></div>
+	</div>
+
+	<div class = "fightSection">
+		Enemies Available To Attack
+		<div id = "fightSection"></div>
+	</div>
+
+	<h2>Fight Section</h2>
+	<button id = "attack">Attack</button>
+
+	<div class = "defender">
+		Defender
+		<div id = "defender"></div>
+	</div>
+
+	<script type="text/javascript" src = "assets/javascript/game.js"></script>
+</body>
+</html>

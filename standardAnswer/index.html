@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Star Wars with jQuery</title>
+	<!-- Google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Nosifer" rel="stylesheet">
+
+	<!-- css -->
+	<link rel="stylesheet" href = "assets/css/standardStyle.css">
+
+	<!-- jquery -->
+	<!-- jquery needs to be before javascript -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- javascript -->
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</head>
+<body>
+	
+	<div class = "main-section-title">Star Wars RPG!</div>
+	<div id = "main-game-section">
+		<!-- where the characters are initially available to be seclected -->
+		<div id="charaters-section">
+			<div class="section-title">Select your character</div>
+		</div>
+
+		<!-- section for our selected character -->
+		<div id="selected-character-section">
+			<div class="section-title">Your character</div>
+			<!-- where our selected character gonna appear -->
+			<div id="selected-charater"></div>
+		</div>
+
+		<div id="available-to-attack-section">
+			<div class="section-title">Enemies available to attack</div>
+		</div>
+
+		<div class="section-title">Fight section</div>
+		<div id="fight-section">
+			<button id="attack-button">Attack</button>
+		</div>
+
+		<div id="action">
+			<div class="character-section">
+				<div class="section-title">Defender</div>
+				<!-- where our defender will appear -->
+				<div id="defender"></div>
+			</div>
+		</div>
+	<div id = "game-message"></div>
+</body>
+</html>
